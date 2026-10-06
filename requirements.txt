@@ -1,0 +1,37 @@
+# Core
+torch
+torchvision
+torchaudio
+
+# Unsloth + training
+unsloth
+trl
+peft
+transformers
+datasets
+accelerate
+bitsandbytes
+sentencepiece
+protobuf
+
+# Serving
+vllm
+
+# Utilities
+numpy
+pandas
+tqdm
+huggingface_hub
+safetensors
+einops
+packaging
+ninja
+wheel
+setuptools
+
+# Optional but useful
+wandb
+evaluate
+scikit-learn
+matplotlib
+seaborn

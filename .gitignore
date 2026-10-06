@@ -1,0 +1,19 @@
+# Large artifacts – do not upload to GitHub
+adapters/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+miniconda/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+*.log
+
+# Keep structure but ignore weights
+data/*.jsonl
+data/*.json
+!data/README.md
